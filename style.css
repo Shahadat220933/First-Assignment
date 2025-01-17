@@ -80,6 +80,13 @@ font-weight: 600;
 font-size: 18px;
 border: none;
 }
+.btn-primary:hover{
+  background-color:gray ;
+  width: 200px;
+}
+.nav-btn:hover{
+  background-color: palevioletred;
+}
 .banner-img{
     padding-right: 100px;
 }
@@ -93,7 +100,7 @@ font-size: 40px;
 font-weight: 700;
 line-height: 48px;
 text-align: left;
-margin-bottom: 32px;
+margin-bottom: 32px;;
 }
 .pillar-cards{
   display: flex;
@@ -174,11 +181,15 @@ margin-bottom: 24px;
       }.vision-cards-2{
         padding: 32px;
         background-color: #C6E4D6;
-        border-radius: 16px;
-      }.vision-cards-3{
+        border-radius:16px;
+      }
+      .vision-cards-3{
         padding: 32px;
         background-color:#F7EBCF;
         border-radius: 16px;
+      }
+      .vision-cards-1:hover,.vision-cards-2:hover,.vision-cards-3:hover{
+        background-color: brown;
       }
       .vision-cards>div>button{
       padding: 11px 20px 11px 20px;
@@ -192,6 +203,9 @@ margin-bottom: 24px;
         border: none;
 }.btn-3{
         background-color:#FFC239;border: none;
+      }
+      .btn-1:hover,.btn-2:hover,.btn-3:hover{
+        background-color: aqua;
       }
 
       /* For Bonus section-1 */
@@ -341,6 +355,9 @@ text-align: center;
  }
  .donate-section>.donate-amount>.tk-200{
   background-color:#C6E4D6;
+ }
+ .donate-amount>div:hover,.donate-section>.donate-amount>.tk-200:hover{
+  background-color: #C6E4D6;
  }
  .donate-section>input{
   width: 92%;
