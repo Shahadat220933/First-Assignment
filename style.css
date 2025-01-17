@@ -339,6 +339,9 @@ height: 70px;
 width: 192px;
 text-align: center;
  }
+ .donate-section>.donate-amount>.tk-200{
+  background-color:#C6E4D6;
+ }
  .donate-section>input{
   width: 92%;
   padding: 20px 40px;
@@ -386,6 +389,7 @@ color: #0E0E0EB2;
 .footer-subscribe>button{
   border-radius: 0px 8px 8px 0px;
 }
+/* footer social link */
 .footer-link{
   padding: 50px 160px;
   background-color: #FFFFFF;
